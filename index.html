@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopKit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" id="logo">TopKit</a>
+            <ul id="menu-do-header">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li id="botao-menu"><button onclick="abrirMenu()"><i class="bi bi-list" role="img" aria-label="Menu"></i></button></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="menu-mobile" class="close">
+        <div>
+            <p id="mobile-menu-logo">TopKit</p>
+            <button id="botao-fechar-menu" onclick="fecharMenu()"><i class="bi bi-x-lg" role="img" aria-label="Fechar menu"></i></button>
+        </div>
+        <ul id="botoes-mobile-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+        </ul>
+    </section>
+
+    <section id="banner">
+        <h1>Título aqui</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat, nunc vel vestibulum mollis.</p>
+        <div id="botoes-do-banner">
+            <a href="" class="btn btn-default">Botao 1</a>
+            <a href="" class="btn btn-default-outline">Botao 2</a>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h1 class="titulo-da-secao">Serviços</h1>
+            <div class="card">
+                <img src="img/img-2.jpg" alt="" class="card-img">
+                <h2>Serviço 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit tortor urna.</p>
+            </div>
+            <div class="card">
+                <img src="img/img-3.jpg" alt="" class="card-img">
+                <h2>Serviço 2</h2>
+                <p>Vel iaculis est erat vel orci. Sed id mi elit. Donec faucibus sed mi ac euismod.</p>
+            </div>
+            <div class="card">
+                <img src="img/img-4.jpg" alt="" class="card-img">
+                <h2>Serviço 3</h2>
+                <p>Nam facilisis ut orci ut varius. Orci varius natoque penatibus et magnis dis parturient.</p>
+            </div>
+            <div class="card">
+                <img src="img/img-5.jpg" alt="" class="card-img">
+                <h2>Serviço 4</h2>
+                <p>Proin ut mauris magna. Nullam gravida mi purus, sed rhoncus mauris ornare sed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="descricao-dos-servicos">
+        <div class="container">
+            <div class="descricao-do-servico">
+                <img src="img/img-2.jpg" alt="">
+                <div>
+                    <h4>Texto adicional</h4>
+                    <h1>Título aqui.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ex vel eros cursus tempor at vitae ante. Mauris sed ullamcorper enim, at lacinia dolor. Vivamus orci nunc, ornare et mauris id, lobortis laoreet diam.</p>
+                    <p>Quisque imperdiet, justo vel posuere semper, ipsum urna scelerisque turpis, ac interdum purus eros in augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+            </div>
+            <div class="descricao-do-servico">
+                <img src="img/img-3.jpg" alt="">
+                <div>
+                    <h4>Texto adicional</h4>
+                    <h1>Título aqui.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ex vel eros cursus tempor at vitae ante. Mauris sed ullamcorper enim, at lacinia dolor. Vivamus orci nunc, ornare et mauris id, lobortis laoreet diam.</p>
+                    <p>Quisque imperdiet, justo vel posuere semper, ipsum urna scelerisque turpis, ac interdum purus eros in augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container">
+            <div class="botao-parceiro">
+                <button><i class="bi bi-plus-lg"></i></button>
+                <h1>Parceiro 1</h1>
+                <p>Sed vitae sem ultricies, luctus nibh non, facilisis leo.</p>
+            </div>
+            <div class="botao-parceiro">
+                <button><i class="bi bi-plus-lg"></i></button>
+                <h1>Parceiro 2</h1>
+                <p>Aliquam erat volutpat. Proin dapibus eleifend mi.</p>
+            </div>
+            <div class="botao-parceiro">
+                <button><i class="bi bi-plus-lg"></i></button>
+                <h1>Parceiro 3</h1>
+                <p>Praesent viverra eget justo ac fringilla.</p>
+            </div>
+            <div class="botao-parceiro">
+                <button><i class="bi bi-plus-lg"></i></button>
+                <h1>Parceiro 4</h1>
+                <p>Suspendisse ornare nunc nec massa posuere venenatis.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 TopKit.</p>
+    </footer>
+</body>
+</html>
